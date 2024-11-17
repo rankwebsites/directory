@@ -1,0 +1,27 @@
+collections_config:
+  directory:
+    path: src/content/directory
+    name: Directory
+    icon: directions
+  front:
+    path: src/content/front
+    name: Front
+    icon: fort
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+  src_config:
+    path: src/config
+    name: Src Config
+    icon: roofing
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Asia/Calcutta
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
